@@ -1,0 +1,7 @@
+# 2016-17-code
+10841 code from the 2016-17 game
+
+
+    public double JoystickToMotorVal(double xyVal) {
+        return Math.pow((xyVal * 100), 3) / 1000000;
+    }
